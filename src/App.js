@@ -9,6 +9,7 @@ import './App.css';
 import Navbar from './components/Navbar'
 import MovieHome from './components/MovieHome';
 
+
 // import rootReducer from './reducers';
 // import { persistStore, persistReducer } from 'redux-persist';
 // import storage from 'redux-persist/lib/storage'
@@ -26,6 +27,7 @@ import MovieHome from './components/MovieHome';
 //     applyMiddleware(...middleware)
 //   ));
 // const persistor = persistStore(store);
+
 
 
 const middleware = [thunk];

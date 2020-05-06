@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import Movie from './Movie';
 
 export class MoviesList extends Component {
 
   render() {
+    // console.log(this.props.movies)
     const { movies } = this.props;
 
-    return <div className="row">
-      <h1>Map through Movies</h1>
+    return <div className="row">{
+      movies.Response === 'True' ? 
+        movies.Search.map((movie, index) => (
+          <Movie movie={movie} key={index}/>
+        ))
+        : null} 
       </div>;
   }
 }
