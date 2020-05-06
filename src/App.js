@@ -6,7 +6,8 @@ import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
 import rootReducer from './reducers/combineReducers';
 import { createStore, applyMiddleware, compose } from 'redux';
 import './App.css';
-
+import Navbar from './components/Navbar'
+import MovieHome from './components/MovieHome';
 
 // import rootReducer from './reducers';
 // import { persistStore, persistReducer } from 'redux-persist';
@@ -46,7 +47,8 @@ class App extends Component {
         {/* <PersistGate loading={null} persistor={persistor}> */}
         <Router>
           <div>
-            <h1>GetLost</h1>
+            <Navbar/>
+            <MovieHome />
           </div>
         </Router>
         {/* </PersistGate> */}
