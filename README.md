@@ -9,6 +9,7 @@ Feel free to reach out to williamhuang@flygetlost.com with any questions.
 ### 1. Get API Access ###
 To use the API, you need to create an API key. You should be able to register for an API key using the FREE option by filling out [this form](http://www.omdbapi.com/apikey.aspx) ([link: http://www.omdbapi.com/apikey.aspx](http://www.omdbapi.com/apikey.aspx)). **You do not have to put in your actual personal information:** putting in dummy first and last names should still give you API access. You will receive the API key in the email you specified, where you will be prompted to activate your key through a link. After your key is activated you can start using it to make HTTP requests.
 
+
 ### 2. What you're building ###
 *Note: Feel free to be creative with how you style your app!*
 
