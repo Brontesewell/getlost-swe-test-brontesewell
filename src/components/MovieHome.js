@@ -8,9 +8,9 @@ export class MovieHome extends Component {
 
   render() {
     return (
-      <div className="movie-container">
+      <div className="container">
         <SearchBox />
-        {this.props.loading ? <div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div> : <MoviesList />}
+        {this.props.loading ? <div className="spinner-border" role="status"><span className="sr-only">Loading...</span></div> : <MoviesList />}
       </div>
     );
   }
