@@ -30,6 +30,7 @@ export class Movie extends Component {
     );
   }
 }
+
 const mapDispatchToProps = dispatch => {
   return {
     deleteMovie: (movie) => dispatch(deleteMovie(movie))
